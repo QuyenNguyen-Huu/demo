@@ -212,22 +212,22 @@ width: 150px;
   height: 100%;
 }
 .item:nth-child(1){
-  background-image: url(/public/img/game1.jpg);
+  background-image: url("../img/game1.jpg");
 }
 .item:nth-child(2){
-  background-image: url(/public/img/gam2.jpg);
+  background-image: url("../img/gam2.jpg");
 }
 .item:nth-child(3){
-  background-image: url(/public/img/game3.jpg);
+  background-image: url("../img/game3.jpg");
 }
 .item:nth-child(4){
-  background-image: url(/public/img/game4.jpg);
+  background-image: url("../img/game4.jpg");
 }
 .item:nth-child(5){
-  background-image: url(/public/img/game5.jpg);
+  background-image: url("../img/game5.jpg");
 }
 .item:nth-child(6){
-  background-image: url(/public/img/game6.png);
+  background-image: url("../img/game6.png");
 }
 
 .item{
@@ -419,7 +419,7 @@ transform: skewX(2deg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/public/img/footer.png");
+  background-image: url("../img/footer.png");
   z-index: -2;
 }
 .footer::before{
